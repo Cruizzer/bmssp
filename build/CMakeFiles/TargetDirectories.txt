@@ -1,0 +1,7 @@
+/home/Hans/Desktop/bmssp/build/CMakeFiles/bmssp.dir
+/home/Hans/Desktop/bmssp/build/CMakeFiles/edit_cache.dir
+/home/Hans/Desktop/bmssp/build/CMakeFiles/rebuild_cache.dir
+/home/Hans/Desktop/bmssp/build/CMakeFiles/list_install_components.dir
+/home/Hans/Desktop/bmssp/build/CMakeFiles/install.dir
+/home/Hans/Desktop/bmssp/build/CMakeFiles/install/local.dir
+/home/Hans/Desktop/bmssp/build/CMakeFiles/install/strip.dir

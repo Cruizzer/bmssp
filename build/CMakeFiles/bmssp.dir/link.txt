@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/bmssp.dir/link.d CMakeFiles/bmssp.dir/src/main.cpp.o -o bmssp
