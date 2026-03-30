@@ -39,3 +39,23 @@ add_executable(bmssp src/main.cpp src/graph_generator.cpp src/algorithms/dijkstr
 # Optionally install the target
 install(TARGETS bmssp RUNTIME DESTINATION bin)
 
+# ==================== Unit Tests ====================
+enable_testing()
+
+set(TEST_SOURCES
+	test/test_main.cpp
+	test/test_graph.cpp
+	test/test_dijkstra.cpp
+	test/test_bmssp.cpp
+	test/test_multi_source.cpp
+)
+
+add_executable(unit_tests ${TEST_SOURCES} src/algorithms/dijkstra.cpp src/algorithms/bmssp.cpp src/graph_generator.cpp)
+target_link_libraries(unit_tests PRIVATE Catch2::Catch2)
+
+# Register tests with CTest
+list(APPEND CMAKE_MODULE_PATH ${catch2_SOURCE_DIR}/extras)
+include(CTest)
+include(Catch)
+catch_discover_tests(unit_tests)
+
