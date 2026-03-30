@@ -100,20 +100,68 @@ CMakeFiles/bmssp.dir/src/graph_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bmssp.dir/src/graph_generator.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Hans/Desktop/bmssp/src/graph_generator.cpp -o CMakeFiles/bmssp.dir/src/graph_generator.cpp.s
 
+CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.o: CMakeFiles/bmssp.dir/flags.make
+CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.o: /home/Hans/Desktop/bmssp/src/benchmark/benchmark.cpp
+CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.o: CMakeFiles/bmssp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Hans/Desktop/bmssp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.o -MF CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.o.d -o CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.o -c /home/Hans/Desktop/bmssp/src/benchmark/benchmark.cpp
+
+CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Hans/Desktop/bmssp/src/benchmark/benchmark.cpp > CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.i
+
+CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Hans/Desktop/bmssp/src/benchmark/benchmark.cpp -o CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.s
+
+CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.o: CMakeFiles/bmssp.dir/flags.make
+CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.o: /home/Hans/Desktop/bmssp/src/algorithms/dijkstra.cpp
+CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.o: CMakeFiles/bmssp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Hans/Desktop/bmssp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.o -MF CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.o.d -o CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.o -c /home/Hans/Desktop/bmssp/src/algorithms/dijkstra.cpp
+
+CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Hans/Desktop/bmssp/src/algorithms/dijkstra.cpp > CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.i
+
+CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Hans/Desktop/bmssp/src/algorithms/dijkstra.cpp -o CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.s
+
+CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.o: CMakeFiles/bmssp.dir/flags.make
+CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.o: /home/Hans/Desktop/bmssp/src/algorithms/bmssp.cpp
+CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.o: CMakeFiles/bmssp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Hans/Desktop/bmssp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.o -MF CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.o.d -o CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.o -c /home/Hans/Desktop/bmssp/src/algorithms/bmssp.cpp
+
+CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Hans/Desktop/bmssp/src/algorithms/bmssp.cpp > CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.i
+
+CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Hans/Desktop/bmssp/src/algorithms/bmssp.cpp -o CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.s
+
 # Object files for target bmssp
 bmssp_OBJECTS = \
 "CMakeFiles/bmssp.dir/src/main.cpp.o" \
-"CMakeFiles/bmssp.dir/src/graph_generator.cpp.o"
+"CMakeFiles/bmssp.dir/src/graph_generator.cpp.o" \
+"CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.o" \
+"CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.o" \
+"CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.o"
 
 # External object files for target bmssp
 bmssp_EXTERNAL_OBJECTS =
 
 bmssp: CMakeFiles/bmssp.dir/src/main.cpp.o
 bmssp: CMakeFiles/bmssp.dir/src/graph_generator.cpp.o
+bmssp: CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.o
+bmssp: CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.o
+bmssp: CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.o
 bmssp: CMakeFiles/bmssp.dir/build.make
 bmssp: CMakeFiles/bmssp.dir/compiler_depend.ts
 bmssp: CMakeFiles/bmssp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Hans/Desktop/bmssp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bmssp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Hans/Desktop/bmssp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable bmssp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bmssp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,6 +4,9 @@ bmssp: \
   /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o \
   CMakeFiles/bmssp.dir/src/main.cpp.o \
   CMakeFiles/bmssp.dir/src/graph_generator.cpp.o \
+  CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.o \
+  CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.o \
+  CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libm.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libm.so \
@@ -41,6 +44,12 @@ bmssp: \
 CMakeFiles/bmssp.dir/src/main.cpp.o:
 
 CMakeFiles/bmssp.dir/src/graph_generator.cpp.o:
+
+CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.o:
+
+CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.o:
+
+CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so:
 
