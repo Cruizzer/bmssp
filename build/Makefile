@@ -174,6 +174,82 @@ bmssp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bmssp.dir/build.make CMakeFiles/bmssp.dir/build
 .PHONY : bmssp/fast
 
+#=============================================================================
+# Target rules for targets named Catch2
+
+# Build rule for target.
+Catch2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch2
+.PHONY : Catch2
+
+# fast build rule for target.
+Catch2/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2.dir/build
+.PHONY : Catch2/fast
+
+#=============================================================================
+# Target rules for targets named Catch2WithMain
+
+# Build rule for target.
+Catch2WithMain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch2WithMain
+.PHONY : Catch2WithMain
+
+# fast build rule for target.
+Catch2WithMain/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build
+.PHONY : Catch2WithMain/fast
+
+#=============================================================================
+# Target rules for targets named benchmark
+
+# Build rule for target.
+benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 benchmark
+.PHONY : benchmark
+
+# fast build rule for target.
+benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/benchmark-build/src/CMakeFiles/benchmark.dir/build.make _deps/benchmark-build/src/CMakeFiles/benchmark.dir/build
+.PHONY : benchmark/fast
+
+#=============================================================================
+# Target rules for targets named benchmark_main
+
+# Build rule for target.
+benchmark_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 benchmark_main
+.PHONY : benchmark_main
+
+# fast build rule for target.
+benchmark_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/benchmark-build/src/CMakeFiles/benchmark_main.dir/build.make _deps/benchmark-build/src/CMakeFiles/benchmark_main.dir/build
+.PHONY : benchmark_main/fast
+
+src/graph_generator.o: src/graph_generator.cpp.o
+.PHONY : src/graph_generator.o
+
+# target to build an object file
+src/graph_generator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bmssp.dir/build.make CMakeFiles/bmssp.dir/src/graph_generator.cpp.o
+.PHONY : src/graph_generator.cpp.o
+
+src/graph_generator.i: src/graph_generator.cpp.i
+.PHONY : src/graph_generator.i
+
+# target to preprocess a source file
+src/graph_generator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bmssp.dir/build.make CMakeFiles/bmssp.dir/src/graph_generator.cpp.i
+.PHONY : src/graph_generator.cpp.i
+
+src/graph_generator.s: src/graph_generator.cpp.s
+.PHONY : src/graph_generator.s
+
+# target to generate assembly for a file
+src/graph_generator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bmssp.dir/build.make CMakeFiles/bmssp.dir/src/graph_generator.cpp.s
+.PHONY : src/graph_generator.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -210,7 +286,14 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... Catch2"
+	@echo "... Catch2WithMain"
+	@echo "... benchmark"
+	@echo "... benchmark_main"
 	@echo "... bmssp"
+	@echo "... src/graph_generator.o"
+	@echo "... src/graph_generator.i"
+	@echo "... src/graph_generator.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
