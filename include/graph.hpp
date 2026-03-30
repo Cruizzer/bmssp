@@ -14,7 +14,7 @@ struct Edge {
     Weight weight;
 };
 
-// Graph with adjacency list and coordinates for each vertex
+// Graph with adjacency list for each vertex
 struct Graph {
     std::vector<std::vector<Edge>> adj;
 
