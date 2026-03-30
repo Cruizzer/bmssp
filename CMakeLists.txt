@@ -34,7 +34,7 @@ FetchContent_Declare(
 set(BENCHMARK_ENABLE_TESTING OFF CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(benchmark)
 
-add_executable(bmssp src/main.cpp)
+add_executable(bmssp src/main.cpp src/graph_generator.cpp)
 
 # Optionally install the target
 install(TARGETS bmssp RUNTIME DESTINATION bin)
