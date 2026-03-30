@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/bmssp.dir/link.d CMakeFiles/bmssp.dir/src/main.cpp.o CMakeFiles/bmssp.dir/src/graph_generator.cpp.o CMakeFiles/bmssp.dir/src/benchmark/benchmark.cpp.o CMakeFiles/bmssp.dir/src/algorithms/dijkstra.cpp.o CMakeFiles/bmssp.dir/src/algorithms/bmssp.cpp.o -o bmssp
